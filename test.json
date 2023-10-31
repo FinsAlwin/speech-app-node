@@ -1,0 +1,65 @@
+{
+  "data": {
+    "session": {
+      "_id": "6530bd9d9862b220d3f3f120",
+      "sessionName": "th001-alwinwk-1697693081404",
+      "therapistId": {
+        "_id": "652517df7ebd03335a9872a8",
+        "username": "th001",
+        "firstname": "th001",
+        "lastname": "th001",
+        "email": "alwinwk101@gmail.com",
+        "phone": "+919947955711"
+      },
+      "patientId": {
+        "_id": "651ba0ac5f2bc36715c6c3f9",
+        "username": "alwinwk",
+        "firstname": "Alwin",
+        "lastname": "WK",
+        "age": "32",
+        "email": "alwin@parelstudio.com",
+        "phone": "+919947955711",
+        "profilePicUrl": "https://picsum.photos/id/433/400/400"
+      },
+      "createdAt": "2023-10-19T05:24:45.853Z",
+      "updatedAt": "2023-10-19T05:24:45.853Z",
+      "__v": 0
+    },
+    "application": [
+      {
+        "_id": "6530bd9e9862b220d3f3f122",
+        "sessionId": "6530bd9d9862b220d3f3f120",
+        "applicationId": {
+          "_id": "652f95e3bc59bb740cc83736",
+          "applicationName": "Text Chat",
+          "applicationIframeURL": "https://vst-chat-application.vercel.app/tc",
+          "isCameraRequired": false,
+          "isMicrophoneRequired": false,
+          "applicationCategoryId": "652f67ffcb9ed7176b536d5c",
+          "applicationParams": [
+            {
+              "_id": "652f95e3bc59bb740cc83738",
+              "param": "name",
+              "applicationId": "652f95e3bc59bb740cc83736",
+              "createdAt": "2023-10-18T08:22:59.367Z",
+              "updatedAt": "2023-10-18T08:22:59.367Z",
+              "__v": 0
+            },
+            {
+              "_id": "652f95e3bc59bb740cc8373a",
+              "param": "sessionName",
+              "applicationId": "652f95e3bc59bb740cc83736",
+              "createdAt": "2023-10-18T08:22:59.635Z",
+              "updatedAt": "2023-10-18T08:22:59.635Z",
+              "__v": 0
+            }
+          ]
+        },
+        "createdAt": "2023-10-19T05:24:46.102Z",
+        "updatedAt": "2023-10-19T05:24:46.102Z",
+        "__v": 0
+      }
+    ]
+  },
+  "message": "Session retrieved successfully"
+}
